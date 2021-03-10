@@ -1,0 +1,128 @@
+.container {
+  display:flex;
+  margin-top: 10vh;
+}
+
+.container-projects {
+  border-radius: 5%;
+  height: 55vh; 
+  width:30vw;
+}
+
+.title-projects {
+  margin: 2%;
+  font-size: 2.6vw;
+  text-align: center;
+  font-weight: bold;
+}
+
+.description-img-container {
+  margin: 0.8vh 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description-projects {
+  display: flex;
+  width: 20vw;
+  height: auto;
+  font-size: 2vw;
+  font-size: 1.3vw;
+  border: #cebc81 solid 1px;
+  border:none;
+  border-top-right-radius: 1vw;
+  border-top-left-radius: 1vw;
+  border-bottom-right-radius: 1vw;
+  border-bottom-left-radius: 1vw;
+  /* border-top: none; */
+  /* border-right: none; */
+  border-bottom: none;
+  /* border-left: none; */
+  text-align: center;
+  padding: 2vh 0;
+  font-weight: lighter;
+  color: rgb(168, 168, 168);
+}
+
+.img-projects {
+  width: 10vw;
+  height: 15vmax;
+  border-radius: 5%;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 1vh 15vw;
+}
+
+.button {
+  border: none;
+  border-radius: 0.2vw;
+  width: 6.5vw;
+  padding: 0.6vh 0;
+  height: auto;
+  font-size: 1.5vw;
+  outline: 0;
+  transition: 0.9s;
+}
+
+.button:hover {
+  transition: 0.5s;
+  border:none;
+  font-size: 2vw;
+  color: #f77d75;
+  cursor:pointer;
+}
+
+.button:disabled:hover {
+  color: rgb(167, 167, 167);
+}
+
+.button-demo {
+  border: #a9a9a9 solid 1px;
+  border-left: none;
+  border-top:none;
+  background: transparent;
+}
+
+.button-src-code {
+  border: #a9a9a9 solid 1px;
+  border-right: none;
+  border-top: none;
+  background: transparent;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .container-projects {
+    padding: 5vh 0;
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  .container-projects {
+    padding: 2vh 2vw;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up)  */
+@media only screen and (min-width: 992px) {
+  .container-projects {
+    padding: 2vh 2vw;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .container-projects {
+    padding: 10vh 0vw;
+  }
+}
