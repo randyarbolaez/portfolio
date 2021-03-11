@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/Projects.css";
-import Skill from "./Skill";
 
 const Projects = ({ project: { gif,title, description, demo, src, skills } }) => {
   return (

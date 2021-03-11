@@ -1,5 +1,4 @@
 import React from "react";
-import { Scrollbars } from "react-custom-scrollbars";
 
 import About from "./components/About";
 import Projects from "./components/Projects";
@@ -15,6 +14,7 @@ function App() {
       {Data.map((project) => (
         <Projects key={project.title} project={project} />
       ))}
+      <About footer={true}/>
     </div>
   );
 }

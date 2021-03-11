@@ -15,9 +15,9 @@ const FadeInDiv = styled.div`
 /*  animation: 5s ${fadeInAnimation}; */
 `;
 
-const About = () => (
+const About = (props) => (
   <FadeInDiv className="container-about">
-    <h1 className="title-about">Randy Arbolaez</h1>
+  {!props.footer && <h1 className="title-about">Randy Arbolaez</h1>}
     <div style={{ display: "flex", justifyContent: "center" }}>
       <a
         href="https://www.linkedin.com/in/randyarbolaez/"
@@ -47,6 +47,7 @@ const About = () => (
         </h1>
       </a>
     </div>
+  {props.footer && <h1 style={{padding:"0", marginTop:"0"}} className="title-about">Randy Arbolaez</h1>}
   </FadeInDiv>
 );
 
