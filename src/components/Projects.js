@@ -6,7 +6,7 @@ const Projects = ({ project: { gif,title, description, demo, src, skills } }) =>
     <div className="container">
       <div className="container-projects">
         <div className="container-title">
-          <h1 title={skills} className="title-projects">{title}</h1>
+          <h1 className="title-projects">{title}</h1>
         </div>
         <div className="description-img-container">
           <h2 className="description-projects">{description}</h2>
@@ -23,7 +23,7 @@ const Projects = ({ project: { gif,title, description, demo, src, skills } }) =>
         </div>
       </div>
       <div>
-        <img style={{marginLeft:"2vw",borderRadius:"1vw",width:"60vw"}} src={gif} alt={`gif for ${title}`}/>
+        <img title={skills} style={{marginLeft:"2vw",borderRadius:"1vw",width:"60vw"}} src={gif} alt={`gif for ${title}`}/>
       </div>
     </div>
   );
