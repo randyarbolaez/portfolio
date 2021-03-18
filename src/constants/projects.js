@@ -2,6 +2,7 @@ import MystViewGif from '../assets/gifs/mystview.gif';
 import AnimalPinPoint from '../assets/gifs/animalPinPoint.gif';
 import Owpu from '../assets/gifs/owpu.gif';
 import Tutoring from '../assets/gifs/tutoring.gif';
+import TutoringNative from '../assets/gifs/tutoringNative.gif';
 
 let data = [
   {
@@ -36,14 +37,14 @@ let data = [
     "skills": ["MongoDB", "Express", "React", "Node.JS", "Redux"],
     "gif":Tutoring
   },
-  /*{
+  {
     "title": "Tutoring Board(Native)",
-    "description": "I built the backend first to make a web app, so then I decided to make a native app to go along with the web app.",
+    "description": "I built the backend first to make a web app, then I decided to make a native app to go along with the web app.",
     "demo": "https://expo.io/@spacecowboy/tutoring-board",
     "src": "https://github.com/randyarbolaez/tutoring-native",
     "skills": ["MongoDB", "Express", "React Native", "Node.JS", "Redux"],
-    "gif":"../assets/gifs/mystview.gif"
-  },*/
+    "gif":TutoringNative
+  },
   {
     "title": "AnimalPinPoint",
     "description":"Users post lost animals they see in hope to reunite them with their owner. Implemented Google Maps API.", 
