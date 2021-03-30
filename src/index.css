@@ -1,15 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100&display=swap");
 
 body {
-  /* margin: 4% 10%; */
   margin: 0 auto;
   font-family: "Calibri", sans-serif; 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #f8f8ff;
 }
-
-/* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-} */

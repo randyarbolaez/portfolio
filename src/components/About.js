@@ -1,22 +1,14 @@
 import React from "react";
 import "../styles/About.css";
 
-import styled, { keyframes } from "styled-components";
-import { fadeIn } from "react-animations";
 import {
   AiOutlineLinkedin,
   AiOutlineMail,
   AiOutlineGithub
 } from "react-icons/ai";
 
-const fadeInAnimation = keyframes`${fadeIn}`;
-
-const FadeInDiv = styled.div`
-/*  animation: 5s ${fadeInAnimation}; */
-`;
-
 const About = (props) => (
-  <FadeInDiv className="container-about">
+  <div className="container-about">
   {!props.footer && <h1 className="title-about">Randy Arbolaez</h1>}
     <div style={{ display: "flex", justifyContent: "center" }}>
       <a
@@ -48,7 +40,7 @@ const About = (props) => (
       </a>
     </div>
   {props.footer && <h1 style={{padding:"0", marginTop:"0"}} className="title-about">Randy Arbolaez</h1>}
-  </FadeInDiv>
+  </div>
 );
 
 export default About;
