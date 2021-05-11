@@ -1,5 +1,26 @@
-p{
-    background-color: purple;
+.filter-wrapper{
     text-align: center;
-
+    position: relative;
 }
+
+.filter-wrapper select{
+    font-size: 1.2vw;
+    background-color: transparent;
+    border:none;
+    outline: none;
+    width: 10vw;
+    height: 5vh;
+    border-radius: 0.2vw;
+    color: #a9a9a9;
+    padding-left:0vw;
+    transition:padding 0.6s ease-in-out;
+    font-weight: 600;
+}
+
+.filter-wrapper select:hover{
+    color: #0d1317;
+    cursor: pointer;
+    padding-left:1vw;
+    
+}
+

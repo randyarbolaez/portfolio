@@ -14,13 +14,13 @@ const Filter = (props) => {
     "Firebase",
   ];
   return (
-    <div>
+    <div className="filter-wrapper">
       <select
         name="skills"
         id="skills"
         onChange={(e) => props.parentCallback(e.target.value)}
       >
-        <option key={"all"} value="">
+        <option key="all" value="">
           All
         </option>
         {allSkills.map((skill) => {
