@@ -5,22 +5,26 @@
 
 .filter-wrapper select{
     font-size: 1.2vw;
+    font-size: 1.8vw;
     background-color: transparent;
     border:none;
     outline: none;
     width: 10vw;
+    width: 12vw;
     height: 5vh;
     border-radius: 0.2vw;
     color: #a9a9a9;
     padding-left:0vw;
     transition:padding 0.6s ease-in-out;
     font-weight: 600;
+    -webkit-appearance: none;
+    
 }
 
 .filter-wrapper select:hover{
     color: #0d1317;
     cursor: pointer;
-    padding-left:1vw;
+    padding-left:1.3vw;
     
 }
 

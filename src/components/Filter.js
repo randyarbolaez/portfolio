@@ -21,7 +21,7 @@ const Filter = (props) => {
         onChange={(e) => props.parentCallback(e.target.value)}
       >
         <option key="all" value="">
-          All
+          All Projects
         </option>
         {allSkills.map((skill) => {
           return (
