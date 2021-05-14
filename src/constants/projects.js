@@ -81,7 +81,15 @@ let data = [
     "src": "https://github.com/randyarbolaez/bild-frontend",
     "skills": ["Javascript","React", "Next.js", "GraphQL Yoga", "Prisma", "Styled Component"],
     "gif":"../assets/gifs/mystview.gif"
-  }*/
+  },*/
+  /*{ 
+    "title": "Automazione",
+    "description": "Automazione is a project that scrapes google for jobs and adds information to an Excel Sheet in your Desktop.",
+    "demo": "",
+    "src": "https://github.com/randyarbolaez/bild-frontend",
+    "skills": ["Python","Selenium"],
+    "gif":""
+  },*/
 ];
 
 export default data;

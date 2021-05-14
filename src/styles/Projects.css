@@ -87,11 +87,27 @@
   background: transparent;
 }
 
+.button-demo:disabled {
+  border: #a9a9a9 solid 1px;
+  border-left: none;
+  border-top: none;
+  font-size: 1.5vw;
+  cursor: default;
+}
+
 .button-src-code {
   border: #a9a9a9 solid 1px;
   border-right: none;
   border-top: none;
   background: transparent;
+}
+
+.button-src-code:disabled {
+  border: #a9a9a9 solid 1px;
+  border-right: none;
+  border-top: none;
+  font-size: 1.5vw;
+  cursor: default;
 }
 
 .skills-container {

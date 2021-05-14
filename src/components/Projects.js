@@ -1,7 +1,9 @@
 import React from "react";
 import "../styles/Projects.css";
 
-const Projects = ({ project: { gif,title, description, demo, src, skills } }) => {
+const Projects = ({
+  project: { gif, title, description, demo, src, skills },
+}) => {
   return (
     <div className="container">
       <div className="container-projects">
@@ -13,7 +15,9 @@ const Projects = ({ project: { gif,title, description, demo, src, skills } }) =>
         </div>
         <div className="button-container">
           <a href={demo} rel="noopener noreferrer" target="_blank">
-            <button className={`button-demo button`}>Demo</button>
+            <button className={`button-demo button`} disabled={!demo}>
+              Demo
+            </button>
           </a>
           <a href={src} rel="noopener noreferrer" target="_blank">
             <button className={`button-src-code button`} disabled={!src}>
@@ -23,7 +27,12 @@ const Projects = ({ project: { gif,title, description, demo, src, skills } }) =>
         </div>
       </div>
       <div>
-        <img title={skills} style={{marginLeft:"2vw",borderRadius:"1vw",width:"60vw"}} src={gif} alt={`gif for ${title}`}/>
+        <img
+          title={skills}
+          style={{ marginLeft: "2vw", borderRadius: "1vw", width: "60vw" }}
+          src={gif}
+          alt={`gif for ${title}`}
+        />
       </div>
     </div>
   );
