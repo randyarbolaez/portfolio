@@ -77,7 +77,7 @@ let data = [
   /*{ 
     "title": "Bild",
     "description": "I built this app to see the difference between Rest and Graphql; it features authentication and relations between models, all the while the interface is straightforward and clean.",
-    "demo": "https://bild-frontend.vercel.app/",
+    "demo": "https://bild-frontend-randyarbolaez0.vercel.app/",
     "src": "https://github.com/randyarbolaez/bild-frontend",
     "skills": ["Javascript","React", "Next.js", "GraphQL Yoga", "Prisma", "Styled Component"],
     "gif":"../assets/gifs/mystview.gif"
