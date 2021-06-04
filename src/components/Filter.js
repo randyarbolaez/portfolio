@@ -3,16 +3,21 @@ import "../styles/Filter.css";
 
 const Filter = (props) => {
   let allSkills = [
-    "WebSocket",
     "Express",
-    "React",
-    "Node.Js",
+    "Firebase",
+    "GraphQL Yoga",
     "Javascript",
     "MongoDB",
-    "Redux",
+    "Next.js",
+    "Node.Js",
+    "Prisma",
+    "React",
     "React Native",
-    "Firebase",
+    "Redux",
+    "Styled Component",
+    "WebSocket",
   ];
+
   return (
     <div className="filter-wrapper">
       <select

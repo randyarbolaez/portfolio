@@ -3,6 +3,7 @@ import AnimalPinPoint from "../assets/gifs/animalPinPoint.gif";
 import Owpu from "../assets/gifs/owpu.gif";
 import Tutoring from "../assets/gifs/tutoring.gif";
 import TutoringNative from "../assets/gifs/tutoringNative.gif";
+import Bild from "../assets/gifs/bild.gif";
 
 let data = [
   {
@@ -74,14 +75,22 @@ let data = [
     "skills": ["Javascript","MongoDB", "Express", "Angular 2+", "Node.Js"],
     "gif":"../assets/gifs/mystview.gif"
   },*/
-  /*{ 
-    "title": "Bild",
-    "description": "I built this app to see the difference between Rest and Graphql; it features authentication and relations between models, all the while the interface is straightforward and clean.",
-    "demo": "https://bild-frontend-randyarbolaez0.vercel.app/",
-    "src": "https://github.com/randyarbolaez/bild-frontend",
-    "skills": ["Javascript","React", "Next.js", "GraphQL Yoga", "Prisma", "Styled Component"],
-    "gif":"../assets/gifs/mystview.gif"
-  },*/
+  {
+    title: "Bild",
+    description:
+      "I built this app to see the difference between Rest and GraphQL; it features authentication and relations between models, all the while the interface is straightforward and clean.",
+    demo: "https://bild-frontend-randyarbolaez0.vercel.app/",
+    src: "https://github.com/randyarbolaez/bild-frontend",
+    skills: [
+      "Javascript",
+      "React",
+      "Next.js",
+      "GraphQL Yoga",
+      "Prisma",
+      "Styled Component",
+    ],
+    gif: Bild,
+  },
   /*{ 
     "title": "Automazione",
     "description": "Automazione is a project that scrapes google for jobs and adds information to an Excel Sheet in your Desktop.",
