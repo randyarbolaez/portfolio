@@ -3,12 +3,9 @@ import React, { useState } from "react";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Filter from "./components/Filter";
-
 import Data from "./constants/projects.js";
 
-import "./App.css";
-
-function App() {
+const App = () => {
   const [skillToSearchBy, setSkillToSearchBy] = useState("");
   let dataToShow = [];
 
@@ -36,6 +33,6 @@ function App() {
       <About footer={true} />
     </div>
   );
-}
+};
 
 export default App;
