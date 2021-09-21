@@ -18,7 +18,7 @@ let data = [
   {
     title: "MystView",
     description:
-      "Users get reviewed anonymously and the interface changes based on if the review is negative/positive using sentiment analysis.",
+      "Users get reviewed anonymously and the interface changes based on if the review is negative/positive using sentiment analysis. Also has passwordless auth.",
     demo: "https://mystview.herokuapp.com/",
     src: "https://github.com/randyarbolaez/mystView",
     skills: ["Javascript", "MongoDB", "Express", "Node.Js"],
