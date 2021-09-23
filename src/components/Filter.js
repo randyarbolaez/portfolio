@@ -11,9 +11,11 @@ const Filter = (props) => {
     "Next.js",
     "Node.Js",
     "Prisma",
+    "Python",
     "React",
     "React Native",
     "Redux",
+    "Selenium",
     "Styled Component",
     "WebSocket",
   ];

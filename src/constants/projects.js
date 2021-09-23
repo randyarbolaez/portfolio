@@ -84,21 +84,22 @@ let data = [
     skills: [
       "Javascript",
       "React",
-      "Next.js",
+      "Next.Js",
       "GraphQL Yoga",
       "Prisma",
       "Styled Component",
     ],
     gif: Bild,
   },
-  /*{ 
-    "title": "Automazione",
-    "description": "Automazione is a project that scrapes google for jobs and adds information to an Excel Sheet in your Desktop.",
-    "demo": "",
-    "src": "https://github.com/randyarbolaez/bild-frontend",
-    "skills": ["Python","Selenium"],
-    "gif":""
-  },*/
+  {
+    title: "Automazione",
+    description:
+      "Automazione is a project that scrapes google for jobs and adds information to an Excel Sheet in your Desktop.",
+    demo: "",
+    src: "https://github.com/randyarbolaez/bild-frontend",
+    skills: ["Python", "Selenium"],
+    gif: "",
+  },
 ];
 
 export default data;
