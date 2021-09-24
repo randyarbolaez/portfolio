@@ -96,7 +96,7 @@ let data = [
     description:
       "Automazione is a project that scrapes google for jobs and adds information to an Excel Sheet in your Desktop.",
     demo: "",
-    src: "https://github.com/randyarbolaez/bild-frontend",
+    src: "https://github.com/randyarbolaez/automazione",
     skills: ["Python", "Selenium"],
     gif: "",
   },
