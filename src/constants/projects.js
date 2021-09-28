@@ -4,6 +4,7 @@ import Owpu from "../assets/gifs/owpu.gif";
 import Tutoring from "../assets/gifs/tutoring.gif";
 import TutoringNative from "../assets/gifs/tutoringNative.gif";
 import Bild from "../assets/gifs/bild.gif";
+import Automazione from "../assets/gifs/automazione.gif";
 
 let data = [
   {
@@ -98,7 +99,7 @@ let data = [
     demo: "",
     src: "https://github.com/randyarbolaez/automazione",
     skills: ["Python", "Selenium"],
-    gif: "",
+    gif: Automazione,
   },
 ];
 
