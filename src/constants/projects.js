@@ -96,7 +96,7 @@ let data = [
     title: "Automazione",
     description:
       "Automazione is a project that scrapes google for jobs and adds information to an Excel Sheet in your Desktop.",
-    demo: "",
+    demo: "https://github.com/randyarbolaez/automazione",
     src: "https://github.com/randyarbolaez/automazione",
     skills: ["Python", "Selenium"],
     gif: Automazione,
