@@ -6,4 +6,4 @@
 
 ### Gif of Application
 
-![Alt Text](./public/gif/mystview.gif)
+![Alt Text](./public/gif/portfolio.gif)
