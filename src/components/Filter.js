@@ -8,7 +8,7 @@ const Filter = (props) => {
     "GraphQL Yoga",
     "Javascript",
     "MongoDB",
-    "Next.js",
+    "Next.Js",
     "Node.Js",
     "Prisma",
     "Python",

@@ -25,15 +25,6 @@ let data = [
     skills: ["Javascript", "MongoDB", "Express", "Node.Js"],
     gif: MystViewGif,
   },
-  /*{
-    
-    "title": "Proder",
-    "description": "I built this application to help developers get ideas for projects to build, all the content is user generated. I also implemented WebSocket to make a real time chat, along with tracking the traffic of users.",
-    "demo": "https://proder-frontend.randyarbolaez0.now.sh/",
-    "src": "https://github.com/randyarbolaez/proder-frontend",
-    "skills": ["Javascript","MongoDB", "Express", "React", "Node.Js", "Redux"],
-    "gif":"../assets/gifs/mystview.gif"
-  },*/
   {
     title: "Tutoring Board",
     description:
@@ -68,14 +59,7 @@ let data = [
     skills: ["Javascript", "React Native", "Firebase", "Redux", "Cloudinary"],
     gif: AnimalPinPoint,
   },
-  /*{
-    "title": "Job Tracker",
-    "description": "This app is for people who need to track the jobs that they're applying to. It's like an address book but for jobs.",
-    "demo": "https://job-tracker.randyarbolaez0.now.sh/",
-    "src": "https://github.com/randyarbolaez/job-tracker",
-    "skills": ["Javascript","MongoDB", "Express", "Angular 2+", "Node.Js"],
-    "gif":"../assets/gifs/mystview.gif"
-  },*/
+
   {
     title: "Bild",
     description:
@@ -102,5 +86,23 @@ let data = [
     gif: Automazione,
   },
 ];
+
+// THROWAWAY PROJECTS
+/*{
+    "title": "Job Tracker",
+    "description": "This app is for people who need to track the jobs that they're applying to. It's like an address book but for jobs.",
+    "demo": "https://job-tracker.randyarbolaez0.now.sh/",
+    "src": "https://github.com/randyarbolaez/job-tracker",
+    "skills": ["Javascript","MongoDB", "Express", "Angular 2+", "Node.Js"],
+    "gif":"../assets/gifs/mystview.gif"
+  },{
+    
+    "title": "Proder",
+    "description": "I built this application to help developers get ideas for projects to build, all the content is user generated. I also implemented WebSocket to make a real time chat, along with tracking the traffic of users.",
+    "demo": "https://proder-frontend.randyarbolaez0.now.sh/",
+    "src": "https://github.com/randyarbolaez/proder-frontend",
+    "skills": ["Javascript","MongoDB", "Express", "React", "Node.Js", "Redux"],
+    "gif":"../assets/gifs/mystview.gif"
+  },*/
 
 export default data;
